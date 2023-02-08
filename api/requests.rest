@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST  http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"ordered penda"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63e396580011fb2051bd4d85
+
+###
+
+PUT http://localhost:3001/todo/complete/63e3969b0011fb2051bd4d88
